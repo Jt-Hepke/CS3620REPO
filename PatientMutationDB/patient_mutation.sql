@@ -35,7 +35,7 @@ CREATE TABLE IF NOT EXISTS End_Nucleotide (
     MID TEXT NOT NULL,
     Nucleotide TEXT NOT NULL,
     PRIMARY KEY (MID, Nucleotide),
-    FOREIGN KEY (MID) REFERENCES Mutation(MID) --testing
+    FOREIGN KEY (MID) REFERENCES Mutation(MID) --testi
 );
 
 
